@@ -20,9 +20,9 @@ this.setState({
   }
   addTodo=(todo)=>{
 todo.id=Math.random();
-let todos=[...this.state.todo,todo];
+let ntodos=[...this.state.todo,todo];
 this.setState({
-  todo:todos
+  todo:ntodos
 })
   }
   render(){
